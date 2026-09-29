@@ -237,7 +237,7 @@ nav #div2 {
 
 /* Navbar hover */
 
-#main2 ul li::after {
+#main2 ul #link::after {
   content: "";
 
   position: absolute;
@@ -253,7 +253,7 @@ nav #div2 {
   transition: width 0.3s ease;
 }
 
-#main2 ul li:hover::after {
+#main2 ul #link:hover::after {
   width: 100%;
 }
 
