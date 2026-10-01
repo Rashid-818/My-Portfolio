@@ -22,11 +22,11 @@
 
     <div id="main">
 
-        <!-- <div id="initPage">
+        <div id="initPage">
             <div class="wlcm"> Welcome </div>
             <div class="count">0%</div>
         </div>
-        <button id="btn">Explore Now</button> -->
+        <button id="btn">Explore Now</button>
 
         <div id="main2">
 
@@ -38,20 +38,30 @@
 
                 <div id="div2">
                     <ul>
-                        <li id="link" href="#">Home</li>
-                        <li id="link" href="#">About</li>
-                        <li id="link" href="#">Skills</li>
-                        <li id="link"><a href="#project">Projects</a></li>
-                        <li id="link" href="#">Experience</li>
-                        <li id="link" href="#">Contact</li>
+                        <li class="link"><a href="#home">Home</a></li>
+                        <li class="link"><a href="#about">About</a></li>
+                        <li class="link"><a href="#skill">Skills</a></li>
+                        <li class="link"><a href="#project">Projects</a></li>
+                        <li class="link"><a href="#experience">Experience</a></li>
+                        <li class="link"><a href="#contact">Contact</a></li>
                     </ul>
                     <button>Let's Talk <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
+
+                <div class="hamburger" id="hamburger">
+                    <span>Home</span>
+                    <span>About</span>
+                    <span>Skills</span>
+                    <span>Projects</span>
+                    <span>Experience</span>
+                    <span>Contact</span>
+                </div>
+
             </nav>
 
             <main>
 
-                <div class="home">
+                <div id="home" class="home">
                     <div class="textHome">
                         <span id="one">Hi, I'm</span>
                         <h1 id="two"> <i>Rashid </i> <i class="fa-solid fa-code"></i></h1>
@@ -77,7 +87,7 @@
                     </div>
                 </div>
 
-                <div class="about">
+                <div id="about" class="about">
                     <div id="firstSection">
 
                         <h4 id="one">About Me</h4>
@@ -144,7 +154,7 @@ const goal = {
 
                 </div>
 
-                <div class="Skills">
+                <div id="skill" class="Skills">
                     <div id="firstSection">
                         <h4 id="one">My Skills</h4>
                         <h2 id="two">Technologies <span>I Work With</span></h2>
@@ -305,7 +315,7 @@ const goal = {
                 </div>
 
 
-                <div class="experience">
+                <div id="experience" class="experience">
                     <div class="oneDiv">
                         <h4>My Journey</h4>
                         <h2>Experience & <span>Education</span></h2>
@@ -354,6 +364,7 @@ const goal = {
             <footer>
                 &copy; 2026 Rashid.dev | Built with &hearts; and lots of coffee
             </footer>
+            
         </div>
     </div>
 
